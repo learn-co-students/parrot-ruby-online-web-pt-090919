@@ -2,7 +2,7 @@
 # returns the phrase
 def parrot(description, noise = "Squawk")
  puts "A parrot is a #{description} that makes a #{noise} sound."
- return "Squawk"
+ return noise
  end
 
  parrot("Pretty bird")
